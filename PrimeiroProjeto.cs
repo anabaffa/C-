@@ -25,3 +25,19 @@ namespace ConsoleApplication2 {
  }
  }
 }
+
+using System;
+
+					
+public class Program
+{
+	public static void Main()
+	{ 
+		int A, B, prod;
+		A = int.Parse(Console.ReadLine());
+		B = int.Parse(Console.ReadLine());
+		prod = (A * B);
+		Console.WriteLine("PROD = " + prod);
+		
+	}
+}
